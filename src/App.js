@@ -31,6 +31,7 @@ function ChallengeComponent() {
     return (
         <div className='container'>
           <h2 className='title'>오늘의 챌린지 맵</h2>
+          <h2 className='title'>Today AM Challenge Map</h2>
             {challenges.map((challenge, index) => (
                 <p key={index} className='challenge'>{challenge}</p>
             ))}
