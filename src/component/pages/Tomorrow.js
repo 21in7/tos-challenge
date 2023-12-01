@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import challengeData from './challenge.json';
-import './App.css';
-import Header from './Header';
+import challengeData from '../../challenge.json';
+import '../../App.css';
+import Header from '../header/Header';
 
 function TomorrowChallengeComponent() {
     const [challenges, setChallenges] = useState([]);
