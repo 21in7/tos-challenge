@@ -22,7 +22,7 @@ function TomorrowChallengeComponent() {
             imageDirectory = 'om';
         }
 
-        const todayChallenge = selectedChallenges.find(challenge => day == challenge.id);
+        const todayChallenge = selectedChallenges.find(challenge => day === challenge.id);
         setChallenges(todayChallenge ? [todayChallenge.name] : []);
         if (todayChallenge) {
             const imagePath = `${process.env.PUBLIC_URL}/${imageDirectory}/${todayChallenge.image}`;
