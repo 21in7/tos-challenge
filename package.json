@@ -1,6 +1,7 @@
 {
   "name": "tos-web",
   "version": "0.1.0",
+  "homepage": "https://21in7.github.io/tos-challenge/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
