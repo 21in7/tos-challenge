@@ -7,7 +7,7 @@ function App() {
     return (
             <Router>
                 <Routes>
-                    <Route path="/" element={<Main />} />
+                    <Route path="/tos-challenge" element={<Main />} />
                     <Route path="/today" element={<ChallengeComponent />} />
                     <Route path="/tomorrow" element={<TomorrowChallengeComponent />} />
                 </Routes>
