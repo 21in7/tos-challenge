@@ -8,8 +8,8 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/tos-challenge" element={<Main />} />
-                    <Route path="/today" element={<ChallengeComponent />} />
-                    <Route path="/tomorrow" element={<TomorrowChallengeComponent />} />
+                    <Route path="/tos-challenge/today" element={<ChallengeComponent />} />
+                    <Route path="/tos-challenge/tomorrow" element={<TomorrowChallengeComponent />} />
                 </Routes>
             </Router>
     );
