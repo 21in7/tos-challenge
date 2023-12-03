@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   // Entry point of your application
-  entry: './src/index.js',
+  entry: './src/index.jsx',
 
   // Output configuration for Webpack
   output: {
