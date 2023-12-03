@@ -14,7 +14,7 @@ function JobsComponent() {
     const topJobs = Object.keys(updatedJobs).slice(0, 5);
     topJobs.forEach(jobType => {
       const imageName = updatedJobs[jobType][0].icon + '.png';
-      updatedJobs[jobType][0].localImageUrl = `/tos-challenge/icons/${imageName}`;
+      updatedJobs[jobType][0].localImageUrl = process.env.PUBLIC_URL + `/icons/${imageName}`;
     });
 
     // Move setJobs call inside useEffect
