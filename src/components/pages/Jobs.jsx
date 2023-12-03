@@ -6,6 +6,7 @@ import jobsData from '../json/jobs.json';
 
 function JobsComponent() {
   const [jobs, setJobs] = useState(null);
+  const [finalTopJobs, setFinalTopJobs] = useState([]);
 
   useEffect(() => {
     // Update jobs state with local image paths
@@ -18,10 +19,11 @@ function JobsComponent() {
 
     // Move setJobs call inside useEffect
     setJobs(updatedJobs);
-  }, []);
 
-  // Check if jobs is not null or undefined before calling Object.keys
-  const finalTopJobs = jobs ? Object.keys(jobs).slice(0, 5) : [];
+    // Update finalTopJobs state inside useEffect
+    const updatedFinalTopJobs = updatedJobs ? Object.keys(updatedJobs).slice(0, 5) : [];
+    setFinalTopJobs(updatedFinalTopJobs);
+  }, []);
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
