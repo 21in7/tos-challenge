@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Entry point of your application
@@ -59,6 +60,12 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.PUBLIC_URL': JSON.stringify('/tos-challenge'),
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'public/icons', to: 'icons' },
+        { from: 'public/json', to: 'json' }
+      ],
+    })
   ],
 
   // Resolve extensions
