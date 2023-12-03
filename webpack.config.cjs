@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   // Entry point of your application
@@ -51,6 +52,14 @@ module.exports = {
 
   // Enable source maps for debugging
   devtool: 'source-map',
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+    }),
+    new webpack.DefinePlugin({
+      'process.env.PUBLIC_URL': JSON.stringify('/tos-challenge'),
+    }),
+  ],
 
   // Resolve extensions
   resolve: {
