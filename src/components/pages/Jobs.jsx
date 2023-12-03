@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CardMedia, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Header from '../header/Header.jsx';
@@ -7,16 +7,18 @@ import jobsData from '../json/jobs.json';
 function JobsComponent() {
   const [jobs, setJobs] = useState(null);
 
-  // Update jobs state with local image paths
-  const updatedJobs = { ...jobsData };
-  const topJobs = Object.keys(updatedJobs).slice(0, 5);
-  topJobs.forEach(jobType => {
-    const imageName = updatedJobs[jobType][0].icon + '.png';
-    updatedJobs[jobType][0].localImageUrl = `/tos-challenge/icons/${imageName}`;
-  });
+  useEffect(() => {
+    // Update jobs state with local image paths
+    const updatedJobs = { ...jobsData };
+    const topJobs = Object.keys(updatedJobs).slice(0, 5);
+    topJobs.forEach(jobType => {
+      const imageName = updatedJobs[jobType][0].icon + '.png';
+      updatedJobs[jobType][0].localImageUrl = `/tos-challenge/icons/${imageName}`;
+    });
 
-  // Move setJobs call outside of the forEach loop
-  setJobs(updatedJobs);
+    // Move setJobs call inside useEffect
+    setJobs(updatedJobs);
+  }, []);
 
   // Check if jobs is not null or undefined before calling Object.keys
   const finalTopJobs = jobs ? Object.keys(jobs).slice(0, 5) : [];
