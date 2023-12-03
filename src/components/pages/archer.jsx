@@ -6,7 +6,7 @@ function ArcherComponents() {
     const [jobs, setJobs] = useState(null);
 
     useEffect(() => {
-        fetch('/tos-challenge/json/jobs.json')
+        fetch('/tos-challenge/jobs.json')
         .then(response => response.json())
         .then(data => setJobs(data.archer));
     }, []);
