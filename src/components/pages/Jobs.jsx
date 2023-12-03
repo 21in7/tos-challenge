@@ -7,7 +7,7 @@ function JobsComponent() {
   const [jobs, setJobs] = useState(null);
 
   useEffect(() => {
-    fetch('/tos-challenge/jobs.json')
+    fetch('/jobs/jobs.json')
       .then(response => response.json())
       .then(data => {
         // Update jobs state with local image paths
