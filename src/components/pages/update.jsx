@@ -6,28 +6,24 @@ function SteamNewsFeed() {
     const [feed, setFeed] = useState(null);
 
     useEffect(() => {
-        fetch('https://steam-news.azurewebsites.net/steam-news')
+        fetch('https://steam-new.azurewebsites.net/steam-news')
         .then(response => response.text())
         .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
-            .then(data => {
-                // Process and store the data in the state
-                const items = data.querySelectorAll("item");
-                const feedItems = Array.from(items).map(item => {
-                    const descriptionHtml = item.querySelector("description").textContent;
-                    const parser = new DOMParser();
-                    const descriptionDoc = parser.parseFromString(descriptionHtml, 'text/html');
-                    const imageUrl = descriptionDoc.querySelector('img')?.src; // Get the image src if available
-
-                    return {
-                        title: item.querySelector("title").textContent,
-                        link: item.querySelector("link").textContent,
-                        imageUrl: imageUrl, // Store the image URL
-                        pubDate: item.querySelector("pubDate").textContent
-                    };
-                });
-                setFeed(feedItems.slice(0, 5)); // Only take the first 5 items
-            })
-            .catch(error => console.error('Error fetching Steam news feed:', error));
+        .then(data => {
+          const items = data.querySelectorAll("item");
+          const feedItems = Array.from(items).map(item => {
+            const imageUrl = item.querySelector('enclosure')?.getAttribute('url'); // Get the image URL
+      
+            return {
+              title: item.querySelector("title").textContent,
+              link: item.querySelector("link").textContent,
+              imageUrl: imageUrl, // Store the image URL
+              pubDate: item.querySelector("pubDate").textContent
+            };
+          });
+          setFeed(feedItems.slice(0, 5)); // Only take the first 5 items
+        })
+        .catch(error => console.error('Error fetching Steam news feed:', error));
     }, []);
 
     if (!feed) {
