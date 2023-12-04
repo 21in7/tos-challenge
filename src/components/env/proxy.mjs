@@ -1,12 +1,9 @@
-import fetch from 'node-fetch';
-import express from 'express'
-const app = express();
-const PORT = 3001; // Make sure this port is different from your React app's port
+const express = require('express');
+const cors = require('cors');
+const fetch = require('node-fetch');
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*'); // Enable CORS
-  next();
-});
+const app = express();
+app.use(cors());
 
 app.get('/steam-news', async (req, res) => {
   try {
@@ -19,6 +16,7 @@ app.get('/steam-news', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
