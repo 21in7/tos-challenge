@@ -6,9 +6,9 @@ function SteamNewsFeed() {
     const [feed, setFeed] = useState(null);
 
     useEffect(() => {
-        fetch('/steam-news') // Fetch from your proxy server
-            .then(response => response.text())
-            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+        fetch('https://steam-new.azurewebsites.net/steam-news')
+        .then(response => response.text())
+        .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
             .then(data => {
                 // Process and store the data in the state
                 const items = data.querySelectorAll("item");
