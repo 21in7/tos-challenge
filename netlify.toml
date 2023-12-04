@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/steam-news"
+  to = "https://store.steampowered.com/feeds/news/app/2178420"
+  status = 200
