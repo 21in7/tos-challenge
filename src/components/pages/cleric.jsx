@@ -6,7 +6,7 @@ function ClericComponents() {
     const [jobs, setJobs] = useState(null);
 
     useEffect(() => {
-        fetch('/tos-challenge/jobs.json')
+        fetch('/tos-challenge/json/jobs.json')
         .then(response => response.json())
         .then(data => setJobs(data.cleric));
     }, []);
