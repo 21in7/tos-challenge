@@ -64,7 +64,7 @@ module.exports = {
       patterns: [
         { from: 'public/icons', to: 'icons' },
         { from: 'public/json', to: 'json' },
-        { from: 'public/_redirects', to: '_redirects' }
+        { from: 'public/_redirects', to: '.' }
       ],
     })
   ],
