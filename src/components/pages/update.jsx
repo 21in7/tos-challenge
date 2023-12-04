@@ -6,7 +6,7 @@ function SteamNewsFeed() {
     const [feed, setFeed] = useState(null);
 
     useEffect(() => {
-        fetch('https://steam-new.azurewebsites.net/steam-news')
+        fetch('https://steam-news.azurewebsites.net/steam-news')
         .then(response => response.text())
         .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
             .then(data => {
