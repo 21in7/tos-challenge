@@ -4,13 +4,15 @@ import ChallengeComponent from './components/pages/Today.jsx';
 import TomorrowChallengeComponent from './components/pages/Tomorrow.jsx';
 import Main from './components/main/Main.jsx';
 import JobsComponent from './components/pages/Jobs.jsx';
-import WarriorComponents from './components/pages/warrior.jsx';
-import WizardComponents from './components/pages/wizard.jsx';
-import ArcherComponents from './components/pages/archer.jsx';
-import ClericComponents from './components/pages/cleric.jsx';
-import ScoutComponents from './components/pages/scout.jsx';
-import SteamNewsFeed from './components/pages/update.jsx';
+import WarriorComponents from './components/pages/Warrior.jsx';
+import WizardComponents from './components/pages/Wizard.jsx';
+import ArcherComponents from './components/pages/Archer.jsx';
+import ClericComponents from './components/pages/Cleric.jsx';
+import ScoutComponents from './components/pages/Scout.jsx';
+import SteamNewsFeed from './components/pages/Update.jsx';
 import ErrorBoundary from './components/env/ErrorBoundary.jsx';
+import IchorComponents from './components/pages/Ichor.jsx';
+import DebuffsComponents from './components/pages/Debuffs.jsx';
 
 function App() {
     return (
@@ -27,6 +29,8 @@ function App() {
                     <Route path="/tos-challenge/cleric" element={<ClericComponents />} />
                     <Route path="/tos-challenge/scout" element={<ScoutComponents />} />
                     <Route path="/tos-challenge/update" element={<SteamNewsFeed />} />
+                    <Route path="/tos-challenge/ichor" element={<IchorComponents />} />
+                    <Route path="/tos-challenge/debuff" element={<DebuffsComponents />} />
                 </Routes>
             </Router>
         </ErrorBoundary>

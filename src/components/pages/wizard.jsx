@@ -18,7 +18,7 @@ function WizardComponents() {
     return (
         <Box display="flex" flexDirection="column" alignItems="center">
             <Header />
-            <h2>소드맨</h2>
+            <h2>위저드</h2>
             <Box display="flex" justifyContent="center" flexWrap="wrap">
                 {jobs.map(job => (
                     <Card key={job.id} sx={{ margin: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

@@ -26,7 +26,7 @@
   "type": "module",
   "scripts": {
     "start": "concurrently \"webpack serve --config webpack.config.cjs --mode development\" \"node src/components/env/proxy.mjs\"",
-    "dev": "concurrently \"webpack serve --config webpack.dev.config.cjs --mode development\" \"node src/components/env/proxy.mjs\"",
+    "dev": "concurrently \"webpack serve --config webpack.dev.config.cjs --mode development\"",
     "start-react": "webpack serve --config webpack.config.cjs --mode development",
     "start-proxy": "node src/components/env/proxy.mjs",
     "build": "webpack --config webpack.config.cjs --mode production",
