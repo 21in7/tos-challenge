@@ -14,6 +14,7 @@ function ItemCard({ item }) {
         />
         <CardContent className="card-content">
           <Typography className="card-title" variant="h5">{item.name}</Typography>
+          <Typography className='card-title' variant='h6'>최대 레벨 : {item.max_lv}</Typography>
           <Typography className="card-description" variant="body2" dangerouslySetInnerHTML={{ __html: item.descriptions.replace(/\n/g, '<br />') }} />
         </CardContent>
       </Card>
