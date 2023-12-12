@@ -13,6 +13,7 @@ import SteamNewsFeed from './components/pages/Update.jsx';
 import ErrorBoundary from './components/env/ErrorBoundary.jsx';
 import IchorComponents from './components/pages/Ichor.jsx';
 import DebuffsComponents from './components/pages/Debuffs.jsx';
+import EnchantComponents from './components/pages/Enchant.jsx';
 
 function App() {
     return (
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/tos-challenge/update" element={<SteamNewsFeed />} />
                     <Route path="/tos-challenge/ichor" element={<IchorComponents />} />
                     <Route path="/tos-challenge/debuff" element={<DebuffsComponents />} />
+                    <Route path="/tos-challenge/enchant" element={<EnchantComponents />} />
                 </Routes>
             </Router>
         </ErrorBoundary>

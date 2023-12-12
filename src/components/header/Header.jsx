@@ -34,6 +34,7 @@ function Header() {
                     <MenuItem onClick={handleClose} component={Link} to="/tos-challenge/ichor">은총 아이커</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="/tos-challenge/debuff">극의 디버프</MenuItem>
                     <MenuItem onClick={handleClose} component={Link} to="https://docs.google.com/document/d/1g20dtDQ8P8wI8JiM6wi5NIHXKuYK7r1b6I9_W46G2Sw/edit">뉴비 가이드</MenuItem>
+                    <MenuItem onClick={handleClose} component={Link} to="/tos-challenge/enchant">공용 스킬</MenuItem>
                 </Menu>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     <Link to="/tos-challenge" style={{ textDecoration: 'none', color: 'white' }}>홈</Link>
