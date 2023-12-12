@@ -1,0 +1,293 @@
+{
+    "tier1":
+    [
+        {
+            "name" : "기수식",
+            "descriptions" : "치명타 시 최동 대미지 최대 [6 * 스킬레벨]% 증가\n지속시간 20초\n최대 지속시간 2초",
+            "max_lv" : "5",
+            "icon" : "icon_warri_startup.webp"
+        },
+        {
+            "name" : "프렌지",
+            "descriptions" : "중첩당 적에게 주는 대미지 2% 증가\n중첩당 적에게 받는 피해 0.5% 증가\n최대 중첩 [3* 스킬레벨]회\n기본 공격 속도 [150 + *스킬레벨 *10)] 증가",
+            "max_lv" : "5",
+            "icon" : "icon_warri_phrensy.webp"
+        },
+        {
+            "name" : "미사일 홀",
+            "descriptions" : "지속시간 [2 * 스킬레벨]초",
+            "max_lv" : "5",
+            "icon" : "icon_wizar_missilehole.webp"
+        },
+        {
+            "name" : "리트 데스 벨트바움",
+            "descriptions" : "입히는 피해 [15 * 스킬레벨]% 증가\n무적 카운트 3회\n지속시간 10초",
+            "max_lv" : "5",
+            "icon" : "icon_arch_liedderweltbaum.webp"
+        },
+        {
+            "name": "고배율 확대경",
+            "descriptions": "명중, 블록 관통[4 * 스킬레벨]% 증가\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_arc_highmagnifyingglass.webp"
+        },
+        {
+            "name": "모다피닐",
+            "descriptions": "이동속도 [2.4 * 스킬레벨] 증가\n지속시간 [8 * 스킬레벨]초 (PVP지역 효과 66.66% 감소)",
+            "max_lv": "5",
+            "icon": "icon_cler_modafinil.webp"
+        },
+        {
+            "name": "저지먼트",
+            "descriptions": "치명타 확률 [3 * 스킬레벨]%\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_cler_judgment.webp"
+        },
+        {
+            "name": "아인 소프",
+            "descriptions": "최대 HP 15% 증가\n지속시간 [16 * 스킬레벨]초 (PVP지역 지속시간 50% 감소)\n재사용 대기시간 [1 * 스킬레벨]% 감소 - (지속시간 [18 * 스킬레벨]초)\n5초당 (HP회복력)만큼 HP회복",
+            "max_lv": "5",
+            "icon": "icon_cler_ayinsof.webp"
+        },
+        {
+            "name": "하시사스",
+            "descriptions": "기본 공격 속도 [34 * 스킬레벨] 증가\n치명타 대미지 [1.5 * 스킬레벨]% 증가\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_scout_hasisas.webp"
+        },
+        {
+            "name": "스웰 핸즈",
+            "descriptions": "시전자의 기본 공격력 * [0.6 * 스킬레벨]% 수치만큼 공격력 증가",
+            "max_lv": "5",
+            "icon": "icon_scout_swellhands.webp"
+        },
+        {
+            "name": "인챈트 웨폰",
+            "descriptions": "치명타 발생 [3 * 스킬레벨]% 증가",
+            "max_lv": "5",
+            "icon": "icon_wizar_enchantlightning.webp"
+        },
+        {
+            "name": "생명줄",
+            "descriptions": "(스탯 총합 / 15) * [15 * 스킬레벨]% 수치만큼 모든 스탯 증가",
+            "max_lv": "5",
+            "icon": "icon_wizar_umbilicalcord.png"
+        }
+    ],
+    "tier2":
+    [
+        {
+            "name": "페인 베리어",
+            "descriptions": "지속 시간 [ 10 * 스킬레벨]초 (PVP지역 지속시간 50% 감소)",
+            "max_lv": "3",
+            "icon": "icon_warri_painbarrier.webp"
+        },
+        {
+            "name": "가디언",
+            "descriptions": "물리, 마법 피해 [ 10 * 스킬레벨]% 감소 (PVP지역 효과 50% 감소)\n광역 방어 비율 [6 + 스킬레벨] 증가\n지속시간 15초",
+            "max_lv": "5",
+            "icon": "icon_warri_guradian.webp"
+        },
+        {
+            "name": "트롯",
+            "descriptions": "이동속도 [5 + 스킬레벨] 증가\n5초당 SP 20 감소",
+            "max_lv": "5",
+            "icon": "icon_warri_trot.webp"
+        },
+        {
+            "name": "스프린트",
+            "descriptions": "이동속도 [9 + ((스킬레벨-1) * 3)] 증가\n지속시간 10초\n대시 시 STA 감소 없음",
+            "max_lv": "5",
+            "icon": "icon_warri_sprint.webp"
+        },
+        {
+            "name": "개시",
+            "descriptions": "블록 관통 [20 * 스킬레벨]% 증가\n지속시간 30초",
+            "max_lv": "5",
+            "icon": "icon_warri_deployment.webp"
+        },
+        {
+            "name": "디파이언스",
+            "descriptions": "보스 대상에게 대미지 증가[1.5 * 스킬레벨]%",
+            "max_lv": "5",
+            "icon": "icon_warri_defiance.webp"
+        },
+        {
+            "name": "텔레포테이션",
+            "descriptions": "최대 순간이동 거리 [66 * 스킬레벨]",
+            "max_lv": "3",
+            "icon": "icon_wizar_teleportation.webp"
+        },
+        {
+            "name": "섀도우 풀",
+            "descriptions": "지속시간 [0.5 * 스킬레벨]초",
+            "max_lv": "5",
+            "icon": "icon_wizar_shadowpool.webp"
+        },
+        {
+            "name": "후방 도약",
+            "descriptions": "후방 도약거리 [43 * 스킬레벨]",
+            "max_lv": "3",
+            "icon": "icon_arch_jumpshot.webp"
+        },
+        {
+            "name": "마쉬렌데스리트",
+            "descriptions": "방어 횟수 [4 * 스킬레벨]\n이동속도 15 증가 (지속시간 5초)\n지속시간 60초",
+            "max_lv": "5",
+            "icon": "icon_arch_marschierendeslied.webp"
+        },
+        {
+            "name": "평가절하",
+            "descriptions": "방어력 10% 감소\n지속시간 [2 * 스킬레벨]초",
+            "max_lv": "5",
+            "icon": "icon_arch_devaluation.png"
+        },
+        {
+            "name": "인버너러블",
+            "descriptions": "명중률 [6 * 스킬레벨]% 증가\n지속시간 [7 * 스킬레벨]초 증가",
+            "max_lv": "5",
+            "icon": "icon_cler_invulnerable.webp"
+        },
+        {
+            "name": "농락",
+            "descriptions": "회피 [4 * 스킬레벨]% 증가\n위협 수치 [694 * 스킬레벨] 증가\n회피 버프 지속시간 60초",
+            "max_lv": "5",
+            "icon": "icon_scout_bully.webp"
+        },
+        {
+            "name": "인챈트 글로브",
+            "descriptions": "명중 [3 * 스킬레벨]% 증가\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_scout_enchantglove.webp"
+        },
+        {
+            "name": "인챈트 어스",
+            "descriptions": "블록 관통 수치 [3 * 스킬레벨]% 증가\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_wizar_enchantearth.webp"
+        },
+        {
+            "name": "이베이젼",
+            "descriptions": "회피 [20 * 스킬레벨]% 증가\n이동속도 [2 * 스킬레벨] 증가\n지속시간 10초",
+            "max_lv": "5",
+            "icon": "icon_arch_evasion.png"
+        },
+        {
+            "name": "회피기동",
+            "descriptions": "회피율 [6.6 * 스킬레벨]% 증가\n지속시간 8초",
+            "max_lv": "5",
+            "icon": "icon_arch_evasivemaneuvering.webp"
+        },
+        {
+            "name": "리뎀션",
+            "descriptions": "최종 회피율[2 * 스킬레벨]% 증가 (PVP지역 [90 + 스킬레벨]%)\n이동속도 3증가 (PVP지역 6)\n버프 지속시간 40초 (PVP지역 8초)",
+            "max_lv": "5",
+            "icon": "icon_scout_redemption.webp"
+        },
+        {
+            "name": "리커버리",
+            "descriptions": "HP 회복 수치 (1000/2000/4000)\nHP 회복 가능 주기: 1초 (PVP지역 7초)",
+            "max_lv": "3",
+            "icon": "icon_recovery.png"
+        }
+    ],
+    "tier3":
+    [
+        {
+            "name": "하드실드",
+            "descriptions": "[방패 방어력] * [60 * 스킬레벨]% 물리 방어력 증가",
+            "max_lv": "5",
+            "icon": "icon_warri_hardshield.webp"
+        },
+        {
+            "name": "프리벤트",
+            "descriptions": "[슬로우][이동불가][포박] 즉시 해제\n[슬로우][이동불가][포박][스턴] 면역 지속시간 2초\n재사용 대기시간 [3* 스킬레벨]초 감소",
+            "max_lv": "5",
+            "icon": "icon_warri_prevent.webp"
+        },
+        {
+            "name": "대거가드",
+            "descriptions": "받는 피해에 대해 블록[6 * 스킬레벨]% 추가 적용\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_warri_daggerguard.webp"
+        },
+        {
+            "name": "서브제로 실드",
+            "descriptions": "공격 방어 확률 [12 * 스킬레벨]% (PVP지역 효과 50% 감소)\n피해 감소 [4.3 *(스킬레벨 * 0.4)]%\n[결빙] 지속시간 3초 (PVP지역 1.5초)\n방어 가능 거리 50\n버프 지속시간 30분 (PVP지역 30초)",
+            "max_lv": "5",
+            "icon": "icon_wizar_subzeroshield.png"
+        },
+        {
+            "name": "퀵 캐스트",
+            "descriptions": "캐스팅 시간 [10 * 스킬레벨]% 감소\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_wizar_quickcast.png"
+        },
+        {
+            "name": "보호의 룬",
+            "descriptions": "캐스팅 중 피해 감소[2 * 스킬레벨]%\n지속시간 30분\n캐스팅 시간 2초",
+            "max_lv": "5",
+            "icon": "icon_wizar_algiz.png"
+        },
+        {
+            "name": "데스퍼레이트 디펜스",
+            "descriptions": "받는 피해 감소 [6 * 스킬레벨]%\n 지속시간 30초",
+            "max_lv": "5",
+            "icon": "icon_arch_desperate_defense.webp"
+        },
+        {
+            "name": "파비스 설치",
+            "descriptions": "공격 [8 * 스킬레벨]회 방어 (PVP지역 최대 15회)\n파비스 지속시간 30초",
+            "max_lv": "5",
+            "icon": "icon_arch_deploypavise.png"
+        },
+        {
+            "name": "포어텔",
+            "descriptions": "받는 피해 [7 * 스킬레벨]% 감소\n마법진 지속시간 5초",
+            "max_lv": "5",
+            "icon": "icon_cler_foretell.webp"
+        },
+        {
+            "name": "아스퍼션",
+            "descriptions": "물리 방어력 [4 * 스킬레벨]% 증가\n 적용 대상 10\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_cler_aspersion.png"
+        },
+        {
+            "name": "라이칸쓰로피",
+            "descriptions": "대미지 [10 * 스킬레벨]% 증가\n치명타 발생 [10 * 스킬레벨]% 증가\n 기본 이동속도 10증가\n최대 HP 2배 증가\n물리, 마법 방어력 50% 증가\n블록 관통 10% 증가\n 최대 지속시간 15초",
+            "max_lv": "5",
+            "icon": "icon_cler_lycanthropy.webp"
+        },
+        {
+            "name": "마법방어력 증가",
+            "descriptions": "마법 방어력 [4 * 스킬레벨]% 증가\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_cler_increasemagicdef.webp"
+        },
+        {
+            "name": "스톤 스킨",
+            "descriptions": "피해 [1.5 * 스킬레벨]%\n지속시간 30분",
+            "max_lv": "5",
+            "icon": "icon_cler_stoneskin.webp"
+        },
+        {
+            "name": "비디 아이드",
+            "descriptions": "최대 이동거리 [36 * 스킬레벨] 증가",
+            "max_lv": "5",
+            "icon": "icon_cler_beadyeyed.webp"
+        },
+        {
+            "name": "크기 확대",
+            "descriptions": "최대 체력, 방어력 [2 * 스킬레벨]% 증가\n지속시간 30초",
+            "max_lv": "5",
+            "icon": "icon_wizar_swellbody.png"
+        },
+        {
+            "name": "피지컬 링크",
+            "descriptions": "피해량 [3 * 스킬레벨]% 감소",
+            "max_lv": "5",
+            "icon": "icon_wizar_physicallink.png"
+        }
+    ]
+}
