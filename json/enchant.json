@@ -3,7 +3,7 @@
     [
         {
             "name" : "기수식",
-            "descriptions" : "치명타 시 최동 대미지 최대 [6 * 스킬레벨]% 증가\n지속시간 20초\n최대 지속시간 2초",
+            "descriptions" : "치명타 시 최종 대미지 최대 [6 * 스킬레벨]% 증가\n지속시간 20초\n최대 지속시간 2초",
             "max_lv" : "5",
             "icon" : "icon_warri_startup.webp"
         },
