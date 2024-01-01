@@ -38,7 +38,9 @@ function Header() {
                 </Menu>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     <Link to="/tos-challenge" style={{ textDecoration: 'none', color: 'white' }}>홈</Link>
+                    
                 </Typography>
+                {new Date().toLocaleTimeString()} KST
             </Toolbar>
         </AppBar>
     );
