@@ -2,7 +2,7 @@
     "om": [
         {
             "id" : "01",
-            "name": "딩고파실 지구,(Dingofasil District),(ディンゴパシル地区)",
+            "name": "글리헬 기념구,(Gliehel Memorial),(グリヘル記念区)",
             "image": "01.jpg"
         },
         {
@@ -17,7 +17,7 @@
         },
         {
             "id": "04",
-            "name": "관문로,(Gate Route),(関門路)",
+            "name": "사우시스 9관,(Sausis Room 9),(サウシス9館)",
             "image": "04.jpg"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "id": "07",
-            "name": "아샤크 지하 감옥 1층,(Ashaq Underground Prison 1F),(アシャーク地下監獄 1階)",
+            "name": "이기티 연안,(Igti Coast),(イギティ沿岸)",
             "image": "07.jpg"
         },
         {
@@ -42,12 +42,12 @@
         },
         {
             "id": "09",
-            "name": "딩고파실 지구,(Dingofasil District),(ディンゴパシル地区)",
+            "name": "틸라 수도원,(Tyla Monastery),(ティルラ修道院)",
             "image": "09.jpg"
         },
         {
             "id": "10",
-            "name": "라다르 숲,(Lhadar Forest),(ラダル森)",
+            "name": "서융거스 가도,(Sajunga Road),(ソユンガス街道)",
             "image": "10.jpg"
         },
         {
@@ -57,17 +57,17 @@
         },
         {
             "id": "12",
-            "name": "지부리나스 숲,(Ziburynas Forest),(ジブリナス森)",
+            "name": "다이나 양봉지,(Dina Bee Farm),(ダイナ養蜂地)",
             "image": "12.jpg"
         },
         {
             "id": "13",
-            "name": "남부 파리아스 숲,(Southern Parias Forest),(南部ファリアス森)",
+            "name": "베르크티 광장,(Verkti Square),(ベルクティ広場)",
             "image": "13.jpg"
         },
         {
             "id": "14",
-            "name":"대성당 본당,(Main Building),([大聖堂]本堂)",
+            "name":"베르크티 광장,(Verkti Square),(ベルクティ広場)",
             "image": "14.jpg"
         },
         {
@@ -82,7 +82,7 @@
         },
         {
             "id": "17",
-            "name": "테레쉬 숲,(Teresh Forest),(テレシュの森)",
+            "name": "델무어 대합실,(Delmore Waiting Area),(デルムーア待合室)",
             "image": "17.jpg"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
             "id": "19",
-            "name": "란코22수역,(Lanko 22 Waters),(ランコ水域・第22区)",
+            "name": "나르바스 사원,(Narvas Temple),(ナルバス寺院)",
             "image": "19.jpg"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
             "id": "22",
-            "name": "중부 파리아스 숲,(Central Parias Forest),(中部ファリアス森)",
+            "name": "래스보이 호숫가,(Rasvoy Lake),(レスボーイ湖のほとり)",
             "image": "22.jpg"
         },
         {
@@ -117,12 +117,12 @@
         },
         {
             "id": "24",
-            "name": "라다르 숲,(Lhadar Forest),(ラダル森)",
+            "name": "외성벽 제 15구역,(Outer Wall District 15),(外城壁・第15区域)",
             "image": "24.jpg"
         },
         {
             "id": "25",
-            "name": "누오로딘 폭포,(Nuoridin Falls),(ヌオルディンの滝)",
+            "name": "참회의 기도실,(The Confessional),(懺悔の祈祷室)",
             "image": "25.jpg"
         },
         {
@@ -147,19 +147,19 @@
         },
         {
             "id": "30",
-            "name": "나하스 숲,(Nahash Forest),(ナハスの森)",
+            "name": "쿨레 고개,(Kule Peak),(クレー峠)",
             "image": "30.jpg"
         },
         {
             "id": "31",
-            "name": "봄볕나무 숲,(Spring Light Woods),(春光の森)",
+            "name": "프리넬 기념구,(Frienel Memorial),(プリネル記念区)",
             "image": "31.jpg"
         }
     ],
     "em": [
         {
             "id": "01",
-            "name": "내성벽 제 10구역,(Inner Wall District 10),(内城壁・第10区域)",
+            "name": "비밀실험실,(Secret Laboratory),(秘密の実験室)",
             "image": "01.jpg"
         },
         {
@@ -174,12 +174,12 @@
         },
         {
             "id": "04",
-            "name": "남부 파리아스 숲,(Southern Parias Forest),(南部ファリアス森)",
+            "name": "카듀멜 절벽\n(Kadumel Cliff)\n(カデュメルの絶壁)",
             "image": "04.jpg"
         },
         {
             "id": "05",
-            "name": "덧댄다리 숲,(Woods of the Linked Bridges),(重ね橋の森)",
+            "name": "유데이안 숲,(Yudejan Forest),(ユデイアンの森)",
             "image": "05.jpg"
         },
         {
@@ -189,12 +189,12 @@
         },
         {
             "id": "07",
-            "name": "관문로,(Gate Route),(関門路)",
+            "name": "제단로,(Altar Way),(祭壇路)",
             "image": "07.jpg"
         },
         {
             "id": "08",
-            "name": "덧댄다리 숲,(Woods of the Linked Bridges),(重ね橋の森)",
+            "name": "네이포트 성당 동관,(Neighport Church East Building),(ネイポート聖堂東館)",
             "image": "08.jpg"
         },
         {
@@ -209,12 +209,12 @@
         },
         {
             "id": "11",
-            "name": "관문로,(Gate Route),(関門路)",
+            "name": "봄볕나무 숲,(Spring Light Woods),(春光の森)",
             "image": "11.jpg"
         },
         {
             "id": "12",
-            "name": "스칼다 외곽,(Skalda Outskirts),(スカルダ外郭)",
+            "name": "대지의 요새 확장구역,(Extension),([大地の要塞]拡張区域)",
             "image": "12.jpg"
         },
         {
@@ -224,17 +224,17 @@
         },
         {
             "id": "14",
-            "name": "란코22수역,(Lanko 22 Waters),(ランコ水域・第22区)",
+            "name": "바린웰 27수역,(Barynwell 27 Waters),(バリンウェル27水域)",
             "image": "14.jpg"
         },
         {
             "id": "15",
-            "name": "아르커스 숲,(Arcus Forest),(アルコス森)",
+            "name": "별의 탑 4층,(Astral Tower 4F),(星の塔 4階)",
             "image": "15.jpg"
         },
         {
             "id": "16",
-            "name": "섹타 숲,(Sekta Forest),(セクターの森)",
+            "name": "미르키티 농장,(Myrkiti Farm),(ミルギティ農場)",
             "image": "16.jpg"
         },
         {
@@ -254,32 +254,32 @@
         },
         {
             "id": "20",
-            "name": "딩고파실 지구,(Dingofasil District),(ディンゴパシル地区)",
+            "name": "델무어 내성,(Delmore Citadel),(デルムーア城内)",
             "image": "20.jpg"
         },
         {
             "id": "21",
-            "name": "아샤크 지하 감옥 1층,(Ashaq Underground Prison 1F),(アシャーク地下監獄 1階)",
+            "name": "스타리 타운,(Starry Town),(スタリータウン)",
             "image": "21.jpg"
         },
         {
             "id": "22",
-            "name": "에산치우 마을,(Escanciu Village),(エサンチウ村)",
+            "name": "크란토 연안,(Cranto Coast),(クラント沿岸)",
             "image": "22.jpg"
         },
         {
             "id": "23",
-            "name": "대지의 요새 결전지,(Fortress Battlegrounds),([大地の要塞]決戦地)",
+            "name": "모크슬 묘실,(Mokusul Chamber),(モクスルの墓室)",
             "image": "23.jpg"
         },
         {
             "id": "24",
-            "name": "수정광산 2광구 2층,(Crystal Mine Lot 2 - 2F),(水晶鉱山第2鉱区2階)",
+            "name": "수정광산 2광구 2층, (Crystal Mine Lot 2 - 2F),(水晶鉱山第2鉱区2階)",
             "image": "24.jpg"
         },
         {
             "id": "25",
-            "name": "나하스 숲,(Nahash Forest),(ナハスの森)",
+            "name": "엘고스 수도원 별관,(Elgos Monastery Annex),(エルゴス修道院別館)",
             "image": "25.jpg"
         },
         {
@@ -304,7 +304,7 @@
         },
         {
             "id": "30",
-            "name": "아크멘스 능선,(Akmens Ridge),(アクメンスの尾根)",
+            "name": "메이번 대수도원,(Maven Abbey),(メイバーン大修道院)",
             "image": "30.jpg"
         },
         {
