@@ -5,7 +5,7 @@ function Main() {
     return (
         <div>
             <Header />
-            <img src='/tos-challenge/2b.png' alt="이미지" className='main-image' /> {/* 이미지 추가 */}
+            <img src='/tos-challenge/main.png' alt="이미지" className='main-image' /> {/* 이미지 추가 */}
         </div>
     );
 }
